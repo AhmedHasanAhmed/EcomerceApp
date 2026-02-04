@@ -1,8 +1,8 @@
 class ApiConstants {
-  static const bool _isProduction = false;
+  static const bool _isProduction = true;
   
   static const String _localUrl = 'http://localhost:8000/api';
-  static const String _prodUrl = 'https://your-app-name.onrender.com/api'; // Change this later
+  static const String _prodUrl = 'https://ecomerceapp-4guq.onrender.com/api';
 
   static const String baseUrl = _isProduction ? _prodUrl : _localUrl; 
   
