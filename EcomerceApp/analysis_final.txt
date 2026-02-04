@@ -1,0 +1,34 @@
+Analyzing EcomerceApp...                                        
+
+warning - Unused import: 'admin_users_orders.dart' - lib\screens\admin\admin_auth_screen.dart:5:8 - unused_import
+warning - Unused import: 'admin_auth_screen.dart' - lib\screens\admin\admin_dashboard.dart:5:8 - unused_import
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\screens\admin\admin_dashboard.dart:162:24 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\screens\admin\admin_dashboard.dart:164:43 - deprecated_member_use
+   info - Don't use 'BuildContext's across async gaps - lib\screens\admin\admin_product_management.dart:30:28 - use_build_context_synchronously
+   info - Don't use 'BuildContext's across async gaps - lib\screens\admin\admin_product_management.dart:33:28 - use_build_context_synchronously
+   info - 'value' is deprecated and shouldn't be used. Use initialValue instead. This will set the initial value for the form field. This feature was deprecated after v3.33.0-1.0.pre - lib\screens\admin\admin_product_management.dart:207:19 - deprecated_member_use
+warning - Unused import: 'admin_auth_screen.dart' - lib\screens\admin\admin_users_orders.dart:7:8 - unused_import
+   info - Don't use 'BuildContext's across async gaps - lib\screens\admin\admin_users_orders.dart:79:52 - use_build_context_synchronously
+   info - Don't use 'BuildContext's across async gaps, guarded by an unrelated 'mounted' check - lib\screens\admin\admin_users_orders.dart:160:46 - use_build_context_synchronously
+   info - Don't use 'BuildContext's across async gaps, guarded by an unrelated 'mounted' check - lib\screens\admin\admin_users_orders.dart:170:47 - use_build_context_synchronously
+   info - Don't use 'BuildContext's across async gaps - lib\screens\admin\admin_users_orders.dart:237:44 - use_build_context_synchronously
+   info - Don't use 'BuildContext's across async gaps, guarded by an unrelated 'mounted' check - lib\screens\admin\admin_users_orders.dart:272:33 - use_build_context_synchronously
+   info - Don't use 'BuildContext's across async gaps, guarded by an unrelated 'mounted' check - lib\screens\admin\admin_users_orders.dart:276:40 - use_build_context_synchronously
+   info - Don't use 'BuildContext's across async gaps - lib\screens\user\cart_checkout_screens.dart:55:28 - use_build_context_synchronously
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\screens\user\cart_checkout_screens.dart:140:45 - deprecated_member_use
+   info - Don't use 'BuildContext's across async gaps, guarded by an unrelated 'mounted' check - lib\screens\user\cart_checkout_screens.dart:297:43 - use_build_context_synchronously
+   info - 'groupValue' is deprecated and shouldn't be used. Use a RadioGroup ancestor to manage group value instead. This feature was deprecated after v3.32.0-0.0.pre - lib\screens\user\cart_checkout_screens.dart:359:7 - deprecated_member_use
+   info - 'onChanged' is deprecated and shouldn't be used. Use RadioGroup to handle value change instead. This feature was deprecated after v3.32.0-0.0.pre - lib\screens\user\cart_checkout_screens.dart:360:7 - deprecated_member_use
+   info - Don't use 'BuildContext's across async gaps, guarded by an unrelated 'mounted' check - lib\screens\user\product_screens.dart:151:51 - use_build_context_synchronously
+   info - Don't invoke 'print' in production code - lib\screens\user\product_screens.dart:326:34 - avoid_print
+   info - The private field _darkMode could be 'final' - lib\screens\user\profile_settings_screens.dart:273:8 - prefer_final_fields
+warning - The value of the field '_darkMode' isn't used - lib\screens\user\profile_settings_screens.dart:273:8 - unused_field
+warning - Unused import: 'package:google_fonts/google_fonts.dart' - lib\screens\user\search_screen.dart:2:8 - unused_import
+   info - Don't use 'BuildContext's across async gaps - lib\screens\user\search_screen.dart:41:28 - use_build_context_synchronously
+warning - Unused import: 'package:google_fonts/google_fonts.dart' - lib\screens\user\wishlist_screen.dart:2:8 - unused_import
+   info - The imported package 'http' isn't a dependency of the importing package - lib\services\api_service.dart:2:8 - depend_on_referenced_packages
+warning - The value of the local variable 'primaryColor' isn't used - lib\theme\app_theme.dart:24:11 - unused_local_variable
+warning - The value of the local variable 'greyColor' isn't used - lib\theme\app_theme.dart:28:11 - unused_local_variable
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\theme\app_theme.dart:56:44 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\theme\app_theme.dart:70:79 - deprecated_member_use
+

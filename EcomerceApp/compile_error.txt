@@ -1,0 +1,41 @@
+﻿Resolving dependencies...
+Downloading packages...
+  characters 1.4.0 (1.4.1 available)
+  flutter_lints 5.0.0 (6.0.0 available)
+  lints 5.1.1 (6.1.0 available)
+  matcher 0.12.17 (0.12.18 available)
+  material_color_utilities 0.11.1 (0.13.0 available)
+  meta 1.16.0 (1.18.1 available)
+  path_provider_foundation 2.5.1 (2.6.0 available)
+  test_api 0.7.6 (0.7.9 available)
+Got dependencies!
+8 packages have newer versions incompatible with dependency constraints.
+Try `flutter pub outdated` for more information.
+Analyzing EcomerceApp...                                        
+
+  error - Undefined name 'ApiService' - lib\screens\admin\admin_auth_screen.dart:26:27 - undefined_identifier
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\screens\admin\admin_dashboard.dart:157:24 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\screens\admin\admin_dashboard.dart:159:43 - deprecated_member_use
+   info - Don't use 'BuildContext's across async gaps - lib\screens\admin\admin_product_management.dart:30:28 - use_build_context_synchronously
+   info - Don't use 'BuildContext's across async gaps - lib\screens\admin\admin_product_management.dart:33:28 - use_build_context_synchronously
+   info - 'value' is deprecated and shouldn't be used. Use initialValue instead. This will set the initial value for the form field. This feature was deprecated after v3.33.0-1.0.pre - lib\screens\admin\admin_product_management.dart:203:19 - deprecated_member_use
+   info - Don't use 'BuildContext's across async gaps - lib\screens\admin\admin_users_orders.dart:74:52 - use_build_context_synchronously
+   info - Don't use 'BuildContext's across async gaps, guarded by an unrelated 'mounted' check - lib\screens\admin\admin_users_orders.dart:146:46 - use_build_context_synchronously
+   info - Don't use 'BuildContext's across async gaps - lib\screens\admin\admin_users_orders.dart:213:44 - use_build_context_synchronously
+   info - Don't use 'BuildContext's across async gaps, guarded by an unrelated 'mounted' check - lib\screens\admin\admin_users_orders.dart:248:33 - use_build_context_synchronously
+   info - Don't use 'BuildContext's across async gaps, guarded by an unrelated 'mounted' check - lib\screens\admin\admin_users_orders.dart:252:40 - use_build_context_synchronously
+   info - Don't use 'BuildContext's across async gaps - lib\screens\user\cart_checkout_screens.dart:55:28 - use_build_context_synchronously
+   info - 'groupValue' is deprecated and shouldn't be used. Use a RadioGroup ancestor to manage group value instead. This feature was deprecated after v3.32.0-0.0.pre - lib\screens\user\cart_checkout_screens.dart:305:7 - deprecated_member_use
+   info - 'onChanged' is deprecated and shouldn't be used. Use RadioGroup to handle value change instead. This feature was deprecated after v3.32.0-0.0.pre - lib\screens\user\cart_checkout_screens.dart:306:7 - deprecated_member_use
+warning - Unused import: '../admin/admin_auth_screen.dart' - lib\screens\user\login_screen.dart:6:8 - unused_import
+  error - Expected an identifier - lib\screens\user\login_screen.dart:120:19 - missing_identifier
+  error - Expected to find ']' - lib\screens\user\login_screen.dart:120:19 - expected_token
+   info - The private field _darkMode could be 'final' - lib\screens\user\profile_settings_screens.dart:194:8 - prefer_final_fields
+warning - The value of the field '_darkMode' isn't used - lib\screens\user\profile_settings_screens.dart:194:8 - unused_field
+   info - The imported package 'http' isn't a dependency of the importing package - lib\services\api_service.dart:2:8 - depend_on_referenced_packages
+warning - The value of the local variable 'primaryColor' isn't used - lib\theme\app_theme.dart:24:11 - unused_local_variable
+warning - The value of the local variable 'greyColor' isn't used - lib\theme\app_theme.dart:28:11 - unused_local_variable
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\theme\app_theme.dart:55:44 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\theme\app_theme.dart:69:79 - deprecated_member_use
+  error - Expected a method, getter, setter or operator declaration - lib\theme\app_theme.dart:89:1 - expected_executable
+

@@ -1,0 +1,23 @@
+# Exclude non-project folders
+Antigravity/
+E-CommerceApp-Flutter-main/
+flutter/
+portfolio/
+backend.zip
+
+# Exclude backend dependencies and environment
+backend/node_modules/
+backend/.env
+
+# Exclude Flutter build and tools
+EcomerceApp/.dart_tool/
+EcomerceApp/build/
+EcomerceApp/.flutter-plugins
+EcomerceApp/.flutter-plugins-dependencies
+EcomerceApp/android/.gradle/
+EcomerceApp/ios/.generated/
+
+# Logs and OS files
+*.log
+.DS_Store
+Thumbs.db
