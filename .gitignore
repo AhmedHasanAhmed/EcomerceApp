@@ -11,7 +11,7 @@ backend/.env
 
 # Exclude Flutter build and tools
 EcomerceApp/.dart_tool/
-EcomerceApp/build/
+# EcomerceApp/build/  <-- Waan ka saaray si Vercel u arko build-ka
 EcomerceApp/.flutter-plugins
 EcomerceApp/.flutter-plugins-dependencies
 EcomerceApp/android/.gradle/
